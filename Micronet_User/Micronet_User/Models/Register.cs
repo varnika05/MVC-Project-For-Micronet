@@ -10,6 +10,7 @@
 namespace Micronet_User.Models
 {
     using System;
+    using System.Web.Mvc;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
@@ -19,6 +20,8 @@ namespace Micronet_User.Models
 
         [Required(ErrorMessage ="Name Is Required")]
         public string Name { get; set; }
+        
+        [Remote("IsEmailExists", "User", ErrorMessage = "Email already exist")]
         [Required(ErrorMessage ="Email is Required")]
        
         public string Email { get; set; }
