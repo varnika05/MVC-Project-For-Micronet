@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micronet_User", "Micronet_User\Micronet_User.csproj", "{337E3877-C6E2-4B7C-9BEE-D6B348222D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Micronet_User.Tests", "Micronet_User.Tests\Micronet_User.Tests.csproj", "{4332AAE3-519F-41ED-9BB4-FC2A7B26FA29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{337E3877-C6E2-4B7C-9BEE-D6B348222D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337E3877-C6E2-4B7C-9BEE-D6B348222D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337E3877-C6E2-4B7C-9BEE-D6B348222D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337E3877-C6E2-4B7C-9BEE-D6B348222D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4332AAE3-519F-41ED-9BB4-FC2A7B26FA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4332AAE3-519F-41ED-9BB4-FC2A7B26FA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4332AAE3-519F-41ED-9BB4-FC2A7B26FA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4332AAE3-519F-41ED-9BB4-FC2A7B26FA29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
